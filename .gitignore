@@ -1,0 +1,78 @@
+# Claude harness
+.claude
+CLAUDE.md
+CLAUDE-*
+claude-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Per-competition: raw and processed data are not committed
+*/data/
+!*/data/.gitkeep
+
+# Per-competition: model weights and checkpoints are not committed
+*/models/
+!*/models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.onnx
+
+# Submission CSVs ARE committed — do not ignore */submissions/
+
+# Logs and temporary outputs
+*.log
+logs/
+tmp/
+temp/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard_logs/
+
+# OS / archive noise
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
