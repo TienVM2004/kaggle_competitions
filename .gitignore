@@ -76,3 +76,6 @@ tensorboard_logs/
 *.tar.gz
 *.7z
 *.rar
+
+# Others
+.kaggle
