@@ -3,11 +3,12 @@
 > **Living snapshot.** Overwritten at each checkpoint. Read this first when resuming. For chronology see
 > [`changelog.md`](changelog.md).
 
-- **Last updated:** 2026-06-10
-- **Current phase:** baselines + post-PS EDA done → **alignment model next**
+- **Last updated:** 2026-06-11
+- **Current phase:** baselines + post-PS EDA done → **alignment model next** (planning not started)
 - **Status:** CV harness built and certified (B1 reproduces the public flat-baseline score). Geometry
   hypothesis **refuted** by its own baselines; root cause found (whole-well EDA statistics); corrected
-  post-PS EDA done. No alignment model or submission yet.
+  post-PS EDA done. No alignment model or submission yet. Checkpoint committed and **pushed to origin/main**
+  (`d240b9d`…`31bc8ee`); working tree clean.
 
 ---
 
